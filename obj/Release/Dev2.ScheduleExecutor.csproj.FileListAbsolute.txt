@@ -1,4 +1,0 @@
-D:\Repos\GENDEV\Warewolf-ESB\Dev\Dev2.ScheduleExecutor\obj\Release\Dev2.ScheduleExecutor.csprojResolveAssemblyReference.cache
-D:\Repos\GENDEV\Warewolf-ESB\Dev\Dev2.Server\bin\Release\WareWolfAgent.exe.config
-D:\Repos\GENDEV\Warewolf-ESB\Dev\Dev2.Server\bin\Release\WareWolfAgent.exe
-D:\Repos\GENDEV\Warewolf-ESB\Dev\Dev2.ScheduleExecutor\obj\Release\WareWolfAgent.exe

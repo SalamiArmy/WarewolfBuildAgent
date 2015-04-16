@@ -1,5 +1,0 @@
-D:\Repos\GENDEV\Warewolf Closed Source\BuildEngine\Dev2.ScheduleExecutor\WareWolfAgent.exe.config
-D:\Repos\GENDEV\Warewolf Closed Source\BuildEngine\Dev2.ScheduleExecutor\obj\Debug\WareWolfAgent.exe
-D:\Repos\GENDEV\Warewolf Closed Source\BuildEngine\Dev2.ScheduleExecutor\obj\Debug\WareWolfAgent.pdb
-D:\Repos\GENDEV\Warewolf Closed Source\BuildEngine\Dev2.ScheduleExecutor\WareWolfAgent.exe
-D:\Repos\GENDEV\Warewolf Closed Source\BuildEngine\Dev2.ScheduleExecutor\WareWolfAgent.pdb
