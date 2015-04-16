@@ -17,9 +17,9 @@ using System.Net;
 using System.Security.Principal;
 using System.Threading;
 
-namespace Dev2.ScheduleExecutor
+namespace WarewolfAgent
 {
-    public class Program
+    public static class Program
     {
         private static readonly string OutputPath = string.Format("{0}\\{1}", Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "warewolf");
         private static readonly string SchedulerLogDirectory = OutputPath +  "SchedulerLogs";

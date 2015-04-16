@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40121.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev2.ScheduleExecutor", "Dev2.ScheduleExecutor.csproj", "{6858EA8E-1F83-423C-8F03-260D836C6EDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarewolfAgent", "WarewolfAgent.csproj", "{6858EA8E-1F83-423C-8F03-260D836C6EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Warewolf.Agent.Tests", "..\Warewolf.Agent.Tests\Warewolf.Agent.Tests.csproj", "{03CD7EA3-A3B4-4766-9127-43B95B0F64D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarewolfAgent.Tests", "WarewolfAgent.Tests.csproj", "{03CD7EA3-A3B4-4766-9127-43B95B0F64D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
