@@ -10,3 +10,4 @@
 *.suo
 *.vshost.exe
 *.manifest
+*.cache

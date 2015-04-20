@@ -78,7 +78,7 @@ namespace WarewolfAgent
                             if (logIndex>0)
                             {
                                 var logFile = workflowName.Substring(logIndex + "LogFile=".Length, workflowName.IndexOf(".log", StringComparison.Ordinal) - logIndex - "LogFile=".Length + ".log".Length);
-                                File.AppendAllLines(logFile, new[]{string.Empty, result});
+                                File.AppendAllLines(logFile.Replace("%20", " "), new[]{string.Empty, result});
                             }
                         }
 
@@ -108,7 +108,7 @@ namespace WarewolfAgent
 
         static string FormatForWebCall(string workflowName)
         {
-            return workflowName.Replace(" ", "%20").Replace('\\', '/');
+            return workflowName.Replace(" ", "%20");
         }
 
         private static void Log(string logType, string logMessage)
