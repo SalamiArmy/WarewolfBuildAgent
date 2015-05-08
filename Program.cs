@@ -69,19 +69,6 @@ namespace WarewolfAgent
                 {
                     if(response != null)
                     {
-                        // ReSharper disable AssignNullToNotNullAttribute
-                        using(var reader = new StreamReader(response.GetResponseStream()))
-                        // ReSharper restore AssignNullToNotNullAttribute
-                        {
-                            result = reader.ReadToEnd();
-                            var logIndex=workflowName.IndexOf("LogFile=", StringComparison.Ordinal);
-                            if (logIndex>0)
-                            {
-                                var logFile = workflowName.Substring(logIndex + "LogFile=".Length, workflowName.IndexOf(".log", StringComparison.Ordinal) - logIndex - "LogFile=".Length + ".log".Length);
-                                File.AppendAllLines(logFile.Replace("%20", " "), new[]{string.Empty, result});
-                            }
-                        }
-
                         if(response.StatusCode != HttpStatusCode.OK)
                         {
                             Log("Error", string.Format("Error from execution: {0}", result));
