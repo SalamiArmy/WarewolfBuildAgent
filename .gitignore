@@ -11,3 +11,4 @@
 *.vshost.exe
 *.manifest
 *.cache
+*.user
