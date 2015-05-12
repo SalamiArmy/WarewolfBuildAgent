@@ -54,7 +54,7 @@ namespace WarewolfAgent
         {
             workflowName = FormatForWebCall(workflowName);
             string postUrl = string.Format("http://" + (hostname ?? "localhost") + ":" + (port ?? "3142") + "/services/{0}", workflowName);
-            Log("Info", string.Format("Executing as {0}", CredentialCache.DefaultNetworkCredentials.UserName));
+            Log("Info", string.Format("Executing as {0}", String.IsNullOrEmpty(CredentialCache.DefaultNetworkCredentials.UserName) ? "Anonymous" : CredentialCache.DefaultNetworkCredentials.UserName));
             string result = string.Empty;
 
             WebRequest req = WebRequest.Create(postUrl);
